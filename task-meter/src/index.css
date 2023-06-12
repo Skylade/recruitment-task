@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    background-color: #1e1e20;
+}
+
+.title-gradient {
+    background-color: rgb(103, 162, 255);
+    background-image: linear-gradient(
+        90deg,
+        rgba(103, 162, 255, 1) 18%,
+        rgba(136, 119, 254, 1) 41%,
+        rgba(162, 85, 254, 1) 81%
+    );
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+}
